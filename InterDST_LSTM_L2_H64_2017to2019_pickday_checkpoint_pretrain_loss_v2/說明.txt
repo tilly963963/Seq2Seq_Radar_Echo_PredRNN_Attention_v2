@@ -1,0 +1,12 @@
+實驗一
+
+訓練資料:
+
+Pretrain模型:
+套用加權損失函數 無凍結
+model_itr5_test_cost24.530042104367837_ssim0.6238940755939906.pkl
+
+訓練最佳模型:
+model_itr4_test_cost24.5862659281166.pkl
+
+是否為其他Pretrain模型:否

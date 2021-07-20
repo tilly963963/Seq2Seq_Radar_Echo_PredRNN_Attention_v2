@@ -1,0 +1,15 @@
+實驗二 (pretrain實驗二 predrnn+雙重注意力+混合資料至2014~2019凍結前面兩層模型，混合資料至2014~2019凍結模型輸出，調整加權損失函數) 
+
+
+訓練資料:
+
+Pretrain模型:
+D:\yu_ting\133\InterDST_LSTM_L2_H64_finetune_2014to2016_pickday_60_v2
+model_itr7_test_cost26.142784616221547_ssim0.5924431505587958.pkl
+
+訓練最佳模型:
+model_loss_itr6_test_cost27.730223743236014.pkl
+
+是否為其他Pretrain模型:
+無 
+實驗二結束

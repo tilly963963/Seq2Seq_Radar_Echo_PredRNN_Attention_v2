@@ -1,0 +1,26 @@
+
+cuda 11.1(for torch 1.8.0)
+cuda自定義安裝參考https://blog.csdn.net/sinat_23619409/article/details/84202651
+系統變量
+
+cudnn
+不要用https://pytorch.org/get-started/previous-versions/
+pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+https://discuss.pytorch.org/t/pytorch-1-8-cuda-cannot-use-gpu/113877/3
+
+參考
+https://clay-atlas.com/blog/2020/10/10/cn-windows-tensorflow-cuda-cudnn-installation/
+https://ithelp.ithome.com.tw/articles/10237846
+
+在anavonda 建立3.6環境(torch 1.8.0)
+安裝panda
+python -m forinstall.py
+
+import torch
+print(torch.__version__)
+
+print(torch.version.cuda)
+print(torch.backends.cudnn.version())
+
+印出install過的東西
+https://blog.csdn.net/weixin_30586085/article/details/99387228?fbclid=IwAR32uxP2bHFGzjm7-GW24J-dWLkvF5ReAawfGL-3d2zhwIUep76XMW3AtTo
