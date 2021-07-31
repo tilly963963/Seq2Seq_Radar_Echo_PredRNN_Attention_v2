@@ -10,6 +10,17 @@
 
 ![radar](https://ppt.cc/fDsuYx@.png)
 
+### Results(PredRNN + two mechanisms + transfer learning)
+
+There is no significant difference between the low-intensity echo prediction and PredRNN+ two mechanisms
+
+The CSI is in the range of 40 to 45dBZ, and the degree of improvement is large
+
+In most cases, it is better than the extended forecasting method (OP)
+
+
+
+
 ## Get Started Train the PredRNN_Attention(IDA-LSTM)
 
 1. Install env_v2(env for 120)
